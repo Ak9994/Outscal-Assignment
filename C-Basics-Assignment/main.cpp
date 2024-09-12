@@ -6,6 +6,7 @@
 #include "atk.h"
 #include "functions.h"
 #include "looping.h"
+#include "sum.h"
 
 int main() {
   //Call Method from file
