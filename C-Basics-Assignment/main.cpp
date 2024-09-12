@@ -7,6 +7,7 @@
 #include "functions.h"
 #include "looping.h"
 #include "sum.h"
+#include "gamestory.h"
 
 int main() {
   //Call Method from file
