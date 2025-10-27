@@ -6,7 +6,8 @@ Spawn_limit_per_hour = 20
 time = 5
 boolean check : Is_Mirrored / Not_Mirrored
 --------------------------------------------------------------------------------------
-5 hrs to escape from mirror dimension
+5 hrs to escape from mirror dimension with one base starting point and 5 levels to complete.
+Randomly generated stage based on dice roll from 2-5 
 
 ObjectParameters: Id , Passengers, vacancy
 
@@ -46,3 +47,7 @@ loop: while hour != timeLimit then
                      if no choice is made
                             Raise age by 20
 --------------------------------------------------------------------------------------
+Possible mechanic:
+            use raw materials found on level & combine them to make an appropriate atk
+            atk type is based on the theory behind it. 
+            
