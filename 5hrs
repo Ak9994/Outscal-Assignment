@@ -7,7 +7,7 @@ time = 5
 boolean check : Is_Mirrored / Not_Mirrored
 --------------------------------------------------------------------------------------
 5 hrs to escape from mirror dimension with one base starting point and 5 levels to complete.
-Randomly generated stage based on dice roll from 2-5 
+Randomly generate stage based on dice roll from 1-6 
 
 ObjectParameters: Id , Passengers, vacancy
 
@@ -18,33 +18,32 @@ Logic:
 
 loop: while hour != timeLimit then
             switch hour then
-                case 1: for time = hr, time <= 60 , time ++ then 
+                case 1: for time = hr, time <= 1 , time ++ then 
                             if correct_choice , exit for loop and display success
                             else if wrong_choice , increment hour by 1
                                                    increment age by 20
                                             and exit for loop
-                case 2: for time = hr, time <= 60 , time ++ then 
+                case 2: for time = hr, time <= 2 , time ++ then 
                             if correct_choice , exit for loop and display success
                             else if wrong_choice , increment hour by 1
                                                    increment age by 20
                                             and exit for loop
-                case 3: for time = hr, time <= 60 , time ++ then 
+                case 3: for time = hr, time <= 3 , time ++ then 
                             if correct_choice , exit for loop and display success
                             else if wrong_choice , increment hour by 1
                                                    increment age by 20
                                             and exit for loop
-                case 4: for time = hr, time <= 60 , time ++ then 
+                case 4: for time = hr, time <= 4 , time ++ then 
                             if correct_choice , exit for loop and display success
                             else if wrong_choice , increment hour by 1
                                                    increment age by 20
                                             and exit for loop
-                case 5: for time = hr, time <= 60 , time ++ then 
+                case 5: for time = hr, time <= 5 , time ++ then 
                             if correct_choice , exit for loop and display success
                             else if wrong_choice , increment hour by 1
                                                    increment age by 20
                                             and exit for loop
-                default: 
-                     if no choice is made
+                default: if no choice is made
                             Raise age by 20
 --------------------------------------------------------------------------------------
 Possible mechanics:
