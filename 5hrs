@@ -18,33 +18,34 @@ Logic:
 
 loop: while hour != timeLimit then
             switch hour then
-                case 1: for time = hr, time <= 1 , time ++ then 
-                            if correct_choice , exit for loop and display success
+                case 1: for time = hr, time <= 1 , time ++ then
+                            if correct_choice , exit for loop and display success for level 1
                             else if wrong_choice , increment hour by 1
                                                    increment age by 20
                                             and exit for loop
                 case 2: for time = hr, time <= 2 , time ++ then 
-                            if correct_choice , exit for loop and display success
+                            if correct_choice , exit for loop and display success for level 2
                             else if wrong_choice , increment hour by 1
                                                    increment age by 20
                                             and exit for loop
                 case 3: for time = hr, time <= 3 , time ++ then 
-                            if correct_choice , exit for loop and display success
+                            if correct_choice , exit for loop and display success for level 3
                             else if wrong_choice , increment hour by 1
                                                    increment age by 20
                                             and exit for loop
                 case 4: for time = hr, time <= 4 , time ++ then 
-                            if correct_choice , exit for loop and display success
+                            if correct_choice , exit for loop and display success for level 4
                             else if wrong_choice , increment hour by 1
                                                    increment age by 20
                                             and exit for loop
                 case 5: for time = hr, time <= 5 , time ++ then 
-                            if correct_choice , exit for loop and display success
+                            if correct_choice , exit for loop and display success for level 5
                             else if wrong_choice , increment hour by 1
                                                    increment age by 20
                                             and exit for loop
                 default: if no choice is made
                             Raise age by 20
+
 --------------------------------------------------------------------------------------
 Possible mechanics:
 Combat Mechanic(either turn based/free) if needed:
