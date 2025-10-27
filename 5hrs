@@ -47,7 +47,11 @@ loop: while hour != timeLimit then
                      if no choice is made
                             Raise age by 20
 --------------------------------------------------------------------------------------
-Possible mechanic:
+Possible mechanics:
+Combat Mechanic(either turn based/free):
             use raw materials found on level & combine them to make an appropriate atk
-            atk type is based on the theory behind it. 
+            atk type is based on the theory behind it.
+
+If Wrong Choice: Debuff & Intiate Combat
+If Correct Choice: Buff & Intiate Combat
             
