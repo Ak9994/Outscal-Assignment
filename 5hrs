@@ -48,10 +48,15 @@ loop: while hour != timeLimit then
                             Raise age by 20
 --------------------------------------------------------------------------------------
 Possible mechanics:
-Combat Mechanic(either turn based/free):
+Combat Mechanic(either turn based/free) if needed:
             use raw materials found on level & combine them to make an appropriate atk
             atk type is based on the theory behind it.
 
-If Wrong Choice: Debuff & Intiate Combat
-If Correct Choice: Buff & Intiate Combat
+On wrong Choice: Debuff on encounter. 
+Result:     Failed encounter > set fail condition and age character up
+            Successful encounter > 
+
+On Correct Choice: Buff on encounter.
+Result:     Failed encounter > set fail condition and age character up
+            Successful encounter >  
             
