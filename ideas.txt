@@ -1,5 +1,6 @@
-Isometric version of BRS 
-Implement nike Re collab model on blender for import 
+Try Isometric version of BRS 
+Try to Implement nikke Re collab model on blender for mod
 Try NGNL:0 for strategy genre
-Try M.Mystery as Action-Mystery genre
+Try Martin.Mystery as Action-Mystery-paranormal hunting genre
+
 
