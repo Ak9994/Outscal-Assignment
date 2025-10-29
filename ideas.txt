@@ -1,0 +1,5 @@
+Isometric version of BRS 
+Implement nike Re collab model on blender for import 
+Try NGNL:0 for strategy genre
+Try M.Mystery as Action-Mystery genre
+
