@@ -10,6 +10,8 @@ https://www.geeksforgeeks.org/blogs/game-development-projects-ideas/
 
 https://statanalytica.com/blog/game-development-project-ideas/
 
+https://www.kaashivinfotech.com/blog/top-10-game-development-project-ideas-for-aspiring-game-designers/
+
 videos:
 
 https://youtu.be/HtWesI_sBxE
