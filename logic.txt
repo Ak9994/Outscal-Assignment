@@ -25,3 +25,45 @@ public class EnemySpawner : MonoBehaviour {
         Debug.Log("All waves complete!");
     }
 } 
+
+
+
+interface AmmoManager{
+    int CurrentAmmo();     //This is used to get current ammo
+    int ReserveAmmo();     //This is used to get final leftover ammo 
+    void Ammo_used(int n); //This represents ammo used
+    void Ammo_Left(int n); //This represents ammo left
+    bool Reload();         // Boolean Check to see if reload is needed or not
+    void CalculateAmmo(int n); //Calculate the ammo needed to reload
+}
+
+class Magazines: AmmoManager{
+    private:
+        int Current;
+        int Reserve;
+        int Capacity;
+    public:
+        Magazines(int cap,int res){
+            Current = cap;
+            Capacity = cap;
+            Reserve = res;
+        }
+        void Ammo_Left(int no) => Current = no;
+        void Ammo_used(int no) => Current = Math.Max(1,Current-no);
+        void CalculateAmmo(int no){
+            int need_ammo = Math.Max(1,no-Current);
+            int left_ammo = Math.Min(need_ammo,Reserve);
+            Current += left_ammo;
+            Reserve -= left_ammo;
+        }
+};
+
+
+
+
+
+
+
+
+
+
